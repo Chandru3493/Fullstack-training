@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="rock-paper-scissors.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <section id="content">
+      <center>
+        <h1>Rock Paper Scissors</h1>
+        <img src="rock-paper-scissors.png" width="100px" />
+        <h3>One who score 5 points first is the winner</h3>
+        <table>
+          <tr>
+            <td>
+              <section id="player">
+                <span>Your Turn : </span>
+                <button id="btn1" onclick="play('Rock')">
+                  &nbsp;Rock&nbsp;&nbsp;
+                </button>
+                <button id="btn2" onclick="play('Paper')">
+                  &nbsp;Paper&nbsp;
+                </button>
+                <button id="btn3" onclick="play('Scissors')">Scissors</button>
+              </section>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>Computer : </span>
+              <button id="computer">None</button>
+              <center>
+                <h3 id="result">Tie</h3>
+              </center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>
+                Your Score : <span id="yourScore">0</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              <span>
+                Computer Score :
+                <span id="computerScore">0</span>
+              </span>
+            </td>
+          </tr>
+          <script src="script.js"></script>
+        </table>
+      </center>
+    </section>
+  </body>
+</html>

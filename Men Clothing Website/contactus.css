@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  background-color: #171c28;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #171c28;
+}
+
+#logo {
+  font-family: "Dancing Script", cursive;
+  padding: 5px 15px;
+}
+
+#logo a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  margin-left: auto;
+  padding: 5px 10px;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  font-size: x-large;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li {
+  padding: 5px 25px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: #171c28;
+  max-width: 1500px;
+}
+
+footer span {
+  padding: 5px 10px;
+  margin-left: 40%;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+label {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+input {
+  width: 250px;
+  height: 30px;
+}
+textarea {
+  width: 250px;
+  height: 150px;
+}
+
+form {
+  text-align: center;
+}
+

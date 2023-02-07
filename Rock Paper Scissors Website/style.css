@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #9e34eb;
+}
+
+h1,
+h3 {
+  color: #9e34eb;
+}
+td {
+  padding: 10px;
+}
+
+#computer {
+  text-align: left;
+}
+
+#result {
+  color: #4051ed;
+  font-size: 35px;
+}
+
+#content {
+  margin: 1%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  background: rgba(56, 26, 163, 1);
+  color: white;
+}
+
+button:hover {
+  background: rgba(56, 26, 163, 0.5);
+}
