@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  background-color: #171c28;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  top: 0;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #171c28;
+}
+
+#logo {
+  font-family: "Dancing Script", cursive;
+  padding: 5px 15px;
+}
+
+#logo a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  margin-left: auto;
+  padding: 5px 10px;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  font-size: x-large;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li {
+  padding: 5px 25px;
+}
+
+main {
+  margin-top: 70px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: #171c28;
+  max-width: 1500px;
+}
+
+footer span {
+  padding: 5px 10px;
+  margin-left: 40%;
+}
+
+main {
+  display: flex;
+  max-width: 1500px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  margin-top: 90px;
+}
+
+label {
+  font-size: x-large;
+}
+
+#button {
+  background: linear-gradient(45deg, #b95ce4, #4f29cd);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
