@@ -41,8 +41,7 @@ body {
 }
 
 #card:hover {
-  width: 489px;
-  height: 489px;
+  transform: scale(1.1);
 }
 
 @keyframes card {
