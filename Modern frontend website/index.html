@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="assets\favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="first-page">
+      <div id="navbar">
+        <nav data-aos="fade-down" data-aos-duration="1000">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#">
+          <div id="hamburger" data-aos="fade-down" data-aos-duration="1000">
+            <img src="assets\hamburger.png" />
+          </div>
+        </a>
+      </div>
+      <h3 data-aos="fade-down" data-aos-duration="1500">
+        The only way to learn a new programming language is by writing programs
+        in it.
+      </h3>
+      <br />
+      <br />
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <a href="#" id="button">Get Started</a>
+      </div>
+    </div>
+    <div class="cards">
+      <video autoplay muted loop id="myVideo">
+        <source src="assets\background1.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="assets\javascript.png"
+            alt="Javascript logo"
+            width="110px"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          />
+          <h3 data-aos="fade-down" data-aos-duration="1500">JavaScript</h3>
+          <p data-aos="fade-down" data-aos-duration="2000">
+            JavaScript is a high-level, interpreted programming language that is
+            widely used for building interactive and dynamic web pages, as well
+            as for server-side development, mobile and desktop applications.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="assets\python.png"
+            alt="Python logo"
+            width="100px"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          />
+          <h3 data-aos="fade-down" data-aos-duration="1500">Python</h3>
+          <p data-aos="fade-down" data-aos-duration="2000">
+            Python is a powerful, high-level programming language that is easy
+            to learn and perfect for a wide range of applications, including web
+            development, scientific computing, data analysis, and more.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="assets\cpp.png"
+            alt="C# logo"
+            width="100px"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          />
+          <h3 data-aos="fade-down" data-aos-duration="1500">C#</h3>
+          <p data-aos="fade-down" data-aos-duration="2000">
+            C# is a modern, object-oriented programming language that is widely
+            used for building Windows desktop applications, games, and web
+            applications using the .NET framework.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>Copyright &copy; 2023 Programmers</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
