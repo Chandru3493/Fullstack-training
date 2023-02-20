@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="styles.css" class="css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="color-picker">
+      <center>
+        <h1 for="color-picker">Pick a color</h1>
+        <br />
+        <input type="color" id="color-picker" /><br /><br /><br />
+        <input type="text" id="color-picker-text" placeholder="#000000" />
+      </center>
+    </div>
+
+    <script>
+      const colorPicker = document.getElementById("color-picker");
+      colorPicker.addEventListener("input", () => {
+        document.body.style.backgroundColor = colorPicker.value;
+        document.getElementById("color-picker-text").value = colorPicker.value;
+      });
+    </script>
+  </body>
+</html>

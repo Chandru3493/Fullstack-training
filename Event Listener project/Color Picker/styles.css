@@ -1,0 +1,29 @@
+body {
+  background-color: #fff;
+}
+.color-picker label {
+  font-size: 20px;
+}
+.color-picker input[type="color"] {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  border: none;
+  appearance: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.color-picker {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+  width: 400px;
+  margin: 0 auto;
+  color: #ffffff;
+}

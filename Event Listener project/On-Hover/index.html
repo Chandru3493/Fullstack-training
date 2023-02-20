@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On Hover</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(96, 211, 23);
+        transition: all 0.5s;
+      }
+    </style>
+    <script>
+      const box = document.querySelector(".box");
+
+      box.addEventListener("mouseover", () => {
+        box.style.width = "120px";
+        box.style.height = "120px";
+      });
+
+      box.addEventListener("mouseout", () => {
+        box.style.width = "100px";
+        box.style.height = "100px";
+      });
+    </script>
+  </body>
+</html>
