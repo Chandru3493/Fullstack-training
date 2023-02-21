@@ -1,0 +1,16 @@
+#card {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
